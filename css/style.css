@@ -109,11 +109,13 @@ ul li a {
     color: #fff;
     padding: 5px 15px;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: #f8fafc;
+    color: #222;
+    box-shadow: 1px 1px 5px #000;
 }
 
 #story {
@@ -178,6 +180,12 @@ ul li a {
     background-color: #f8fafc;
     padding-bottom: 15px;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.item:hover {
+    background-color: #222;
+    color: #fff;
 }
 
 #add-ons .grid-container img {
